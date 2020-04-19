@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <link
+            href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            rel="stylesheet"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+            crossorigin="anonymous"
+        />
+        <script type="text/javascript" src="popup.js"></script>
+        <style>
+            body {
+                font-family: 'Segoe UI', Tahoma;
+                font-size: medium;
+                margin: 0;
+                padding: 2px;
+                height: 90px;
+                width: 200px;
+            }
+
+            h1{
+                font-family: 'Gill Sans', monospace;
+                font-size: 20px;
+                font-weight: 400;
+                margin: 0px;
+                color:rgb(43, 74, 74);
+            }
+            
+            .modal-definition{
+                border-top: 0.5px solid;
+                width: 100%;
+                margin-bottom: 10px;
+                margin-left: 5px;
+                margin-right: 5px;
+                margin-top: 5px;
+            }
+        </style>
+        <script src="popup.js"></script>
+    </head>
+    <body>
+        <div class="modal-header">
+            <h1 class="logo">
+                <img src="finder_128.png" alt="Fly" class="logo-icon" height="30px" width="30px"> 
+                Definition
+                <a href="https://github.com/jha-prateek/chrome_extension_demo/tree/master/Definition" target="_blank">
+                    <i class="fa fa-github" style="color:rgb(52, 99, 110);"></i>
+                </a>
+            </h1>
+        </div>  
+        <div class="modal-definition">
+            <p id="definitionArea">Select something to find out definition.</p>
+        </div>
+        <div class="modal-definition">
+            <a href="https://owlbot.info/" id="searchWeb">Search Web</a>
+        </div>
+    </body>
+</html>
